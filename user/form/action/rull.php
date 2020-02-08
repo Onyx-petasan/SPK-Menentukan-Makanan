@@ -89,7 +89,9 @@
 											LEFT JOIN tb_golongandarah g ON (
 											g.kode_golongandarah = r.kode_1
 											)
-											LEFT JOIN tb_penyakit p ON (p.kode_penyakit = r.kode_2)
+											LEFT JOIN tb_penyakit p ON (
+											p.kode_penyakit = r.kode_2
+											)
 											LEFT JOIN tb_makananpokok m1 ON (
 											m1.kode_makananpokok = r.maka1
 											)
